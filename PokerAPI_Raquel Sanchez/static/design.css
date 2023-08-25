@@ -1,0 +1,222 @@
+body {
+    font-family: 'Barlow Condensed';
+    background-color: white;
+    margin: 0;
+ 
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+    font-weight: bolder;
+    font-style: italic;
+    
+
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-family: 'Muli';
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0;
+
+}
+
+.container-fluid {
+    padding: 0% 15%;
+}
+
+#Sub-heading {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+}
+#Sub-heading2 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+
+}
+
+#Sub-heading3 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+
+}
+#Sub-heading4 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+
+}
+#Sub-heading5 {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 21px 0px;
+
+}
+.fa-solid {
+    margin: 0;
+}
+
+
+/* Name section -----------------------------------------*/
+
+#Pokemon_name_section {
+    text-align: center;
+    position: relative;
+    
+}
+
+.Pokemon_name {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+
+    display: inline-block;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 10px;
+    margin-top: 0px;
+    top: 15rem;
+
+}
+
+@media (max-width: 991px) {
+    #Presentation {
+        height: 20rem;
+    }
+
+
+}
+
+
+
+
+/* Stats section -----------------------------------------*/
+#Pokemon_stats_section {
+    position: relative;
+    padding-top: 2rem;
+    height: 15rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: row; 
+
+    
+}
+
+.Pokemon_picture {
+    height: 15rem;
+    width: 33%; 
+    border: 2px solid #000;
+    margin: 0.5rem;
+}
+
+.Pokemon_stats_container {
+    flex: 1; 
+    border: 2px solid #000;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/* Type section -----------------------------------------*/
+#Pokemon_Type_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+Pokemon_type_container {
+    flex: 1 1 66%; 
+    border: 2px solid #000; 
+    padding: 1rem; 
+    margin: 0.5rem; 
+}
+
+/* Evolves section -----------------------------------------*/
+#Pokemon_evolve_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+Pokemon_evolve_container {
+    flex: 1 1 66%; 
+    border: 2px solid #000; 
+    padding: 1rem; 
+    margin: 0.5rem; 
+}
+
+
+/* Damage section -----------------------------------------*/
+#Pokemon_damage_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.Pokemon_to_container,
+.Pokemon_from_container {
+    border: 2px solid #000; 
+    padding: 1rem; 
+    flex: 1; 
+    margin: 0.5rem; 
+
+
+/* abilities section -----------------------------------------*/
+#Pokemon_abilities_section {
+    position: relative;
+    padding-top: 3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    height: 15rem;
+  display: flex; 
+    justify-content: space-between; 
+
+
+}
+
+.Pokemon_a1,
+.Pokemon_a2 {
+    border: 2px solid #000;
+    padding: 1rem;
+    flex: 1; 
+    margin: 0.5rem;
+}
